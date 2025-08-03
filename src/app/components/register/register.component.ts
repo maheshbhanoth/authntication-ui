@@ -13,7 +13,7 @@ import { AuthService } from '../../services/auth.service';
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
-export class RegisterComponent {      //everything upto date
+export class RegisterComponent {      //All commited and upto date!
   registrationForm: FormGroup;
 
   constructor(private fb: FormBuilder, private authService: AuthService) {
