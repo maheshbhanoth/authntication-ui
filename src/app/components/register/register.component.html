@@ -1,0 +1,11 @@
+<div class="registration-wrapper">
+  <div class="registration-card">
+    <h2>Register</h2>
+    <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+      <input type="text" formControlName="username" placeholder="Username" />
+      <input type="email" formControlName="email" placeholder="Email" />
+      <input type="password" formControlName="password" placeholder="Password" />
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</div>
